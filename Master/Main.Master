@@ -1,0 +1,1428 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ChongsCuisine.Master.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Chong's Cuisine - Turlock, CA  | Chinese Food | Thai Food</title>
+    <meta name="keywords" content="Chinese Food, Thai Food, Thai Restaurant, Chinese Restaurant, Turlock Chinese Food, Turlock Thai Food, Modesto Chinese Food, Modesto Thai Food, Turlock Restaurant, Modesto Restaurant, Modesto Food, Turlock Food, Turlock Pad Thai, Modesto Pad Thai, Turlock Asain Food, Modesto Asian Food" /><meta name="Description" content="Welcome To Chong's Cuisine!  The Turlock / Modesto area's top choice for delicious authentic Chinese and Thai food!!" />
+    <link rel="stylesheet" type="text/css" href="/Styles/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/Styles/cream.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/Styles/blog.css" media="screen" />
+    <link rel="stylesheet" href="/Styles/bootstrap.min.css"/>
+<link rel="stylesheet" href="/Styles/font-awesome.min.css"/>
+<!--[if IE 7]>
+<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+<![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="/Scripts/custom.js"></script>
+<script type="text/javascript" src="/Scripts/jquery-ui-custom.min.js"></script>
+<script type="text/javascript" src="/Scripts/twitter.js"></script>
+<script type="text/javascript" src="/Scripts/jquery.easing.js"></script>
+<script type="text/javascript" src="/Scripts/jquery.smooth.scroll.js"></script>
+
+<!-- Page transition Javascript --> 
+<script type="text/javascript" src="/Scripts/page-transitions.js"></script>
+
+<!-- Flexslider JavaScript Files -->	
+<script src="/Scripts/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="/Styles/flexslider.css" type="text/css" media="screen" />
+
+<!-- PrettyPhoto --> 
+<link rel="stylesheet" href="/Styles/prettyPhoto.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/Scripts/prettyPhoto.js"></script>
+
+<!-- Masonry Javascript File --> 
+<script type="text/javascript" src="/Scripts/jquery.isotope.min.js"></script>
+
+<!-- Contact form Javascript --> 
+<script type="text/javascript" src="/Scripts/contact-form-validate.js"></script>
+
+<!-- Google Map Javascript --> 
+<script type="text/javascript" src="/Scripts/google_map_plugin.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<!-- Full Image Background Javascript --> 
+<script type="text/javascript" src="/Scripts/jquery.backstretch.min.js"></script>	
+
+<!-- Photostream Javascript --> 
+<script type="text/javascript" src="/Scripts/bra.photostream.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37930077-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+</script>
+</head>
+    <body id="top" class="home">
+
+<p id="back-top">
+	<a href="#top">Back to Top</a>
+</p>
+
+
+<div id="wrapper">	
+
+<div class="content clearfix boxed">
+
+<!-- START HEADER -->
+
+<div id="header">	
+	
+	<div class="social-bookmarks">	
+        			<div id="logo">	
+		<a href="/"><img src="/Images/logo.png" alt="" /></a>	
+	</div><!--END LOGO-->
+		
+		<ul>
+			<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/Chongs-Cuisine/149178101809498"><img src="images/socialize-icons/white/facebook.png" alt="facebook" /></a></li>
+            			<li class="yelp"><a target="_blank" href="http://www.yelp.com/biz/chongs-cuisine-turlock-2"><img src="images/socialize-icons/white/yelp.png" alt="yelp" /></a></li>
+
+		</ul>
+
+
+	</div><!--END SOCIAL-BOOKMARKS-->
+	
+	        	<div id="primary-menu">
+			
+		<ul class="menu">
+			<li><a href="#home" data-rel="/Images/pattern/bg3.jpg"><strong>Home</strong></a></li>
+			<li><a href="#portfolio" data-rel="/Images/pattern/bg4.jpg"><strong>Menu</strong></a></li>
+		</ul><!--END UL MENU-->
+			
+	</div><!--END PRIMARY MENU-->
+
+	
+	<div class="clear"></div>	
+
+</div><!--END HEADER-->
+
+<!-- END HEADER -->
+
+
+
+<!-- START DYNAMIC CONTENT WRAPPER -->
+
+<div class="dynamic-content-wrapper">
+
+	<div id="home">	
+	
+		<div class="slideshow-container">
+							
+			<div class="flexslider" id="index-slider">
+				<ul class="slides">
+					<li>
+						<a href="#"><img src="/Images/slide1.jpg" alt="" /></a>
+						<p class="flex-caption">Volcano Prawns <i class="icon-fire"></i></p>
+					</li>
+					<li>
+						<a href="#"><img src="/Images/slide2.jpg" alt="" /></a>
+						<p class="flex-caption">Pad Eggplant with Chicken <i class="icon-fire"></i> </p>
+					</li>
+					<li>
+						<a href="#"><img src="/Images/slide3.jpg" alt="" /></a>	
+                      <p class="flex-caption">Sticky Rice with Mango</p>
+				
+					</li>
+					<li>
+						<a href="#"><img src="/Images/slide4.jpg" alt="" /></a>
+						<p class="flex-caption">Mango Fried Rice <i class="icon-fire"></i></p>
+					</li>
+                    					<li>
+						<a href="#"><img src="/Images/slide5.jpg" alt="" /></a>
+						<p class="flex-caption">Red Curry with Shrimp <i class="icon-fire"></i></p>
+					</li>
+                    <li>
+						<a href="#"><img src="/Images/slide6.jpg" alt="" /></a>
+						<p class="flex-caption">Pho with Beef</p>
+					</li>
+                    					<li>
+						<a href="#"><img src="/Images/slide7.jpg" alt="" /></a>
+						<p class="flex-caption">Crispy Tofu <i class="icon-fire"></i></p>
+					</li>
+                    					<li>
+						<a href="#"><img src="/Images/slide8.jpg" alt="" /></a>
+						<p class="flex-caption">Papaya Salad <i class="icon-fire"></i></p>
+					</li>
+                    <li>
+						<a href="#"><img src="/Images/slide9.jpg" alt="" /></a>
+						<p class="flex-caption">House Chow Mein<i class="icon-fire"></i></p>
+					</li>
+                    <li>
+						<a href="#"><img src="/Images/slide10.jpg" alt="" /></a>
+						<p class="flex-caption">Prawns and Green Beans <i class="icon-fire"></i></p>
+					</li>
+                    <li>
+						<a href="#"><img src="/Images/slide11.jpg" alt="" /></a>
+						<p class="flex-caption">Mongolian Beef<i class="icon-fire"></i></p>
+					</li>
+                    <li>
+						<a href="#"><img src="/Images/slide12.jpg" alt="" /></a>
+						<p class="flex-caption">Potstickers</p>
+					</li>
+				</ul><!--END UL SLIDES-->
+			</div><!--END FLEXSLIDER-->			
+
+			<div class="section-title">		
+				<h1>Welcome to Chong's Cuisine!</h1>	<br /><h4>Chinese & Thai Food</h4>
+				<strong>Chong's Cuisine offers the most delicious, quality Chinese and Thai food in Turlock since 2009. </strong><br /><br />
+			</div><!--END SECTION TITLE-->	
+		
+		</div><!--END SLIDESHOW-CONTAINER-->	
+
+	</div><!--END HOME-->
+	
+	
+	<div id="portfolio">	
+
+		<div class="section-title">		
+			<h1>Menu</h1>	
+				
+		</div><!--END SECTION TITLE-->	
+        	<div class="section-nav filterable">	
+		<ul id="portfolio-nav">
+			<li><a data-filter=".soups" href="#">Soups</a></li>
+			<li><a data-filter=".appetizers" href="#">Appetizers</a></li>
+			<li><a data-filter=".mushu" href="#">Mu Shu</a></li>
+			<li><a data-filter=".chefs" href="#">Chef's Recomendations</a></li>
+            <li><a data-filter=".vegetables" href="#">Vegetables</a></li>
+			<li><a data-filter=".seafood" href="#">Seafood</a></li>
+			<li><a data-filter=".chickenpork" href="#">Chicken & Pork</a></li>
+			<li><a data-filter=".beef" href="#">Beef</a></li>
+            			<li><a data-filter=".RiceNoodles" href="#">Rice & Noodles</a></li>
+			<li><a data-filter=".RicePlates" href="#">Rice Plates</a></li>
+			<li><a data-filter=".ThaiLunch" href="#">Thai Lunch</a></li>
+			<li><a data-filter=".Comboplates" href="#">Combination Plates</a></li>
+            			<li><a data-filter=".FamilyDinner" href="#">Family Dinner</a></li>
+			<li><a data-filter=".ThaiDishes" href="#">Thai Dishes</a></li>
+
+		</ul><!--END PORTFOLIO-NAV-->
+	</div><!--END SECTION-NAV FILTERABLE-->
+		
+		<div class="portfolio-grid">
+
+		<ul id="thumbs">
+        
+        	<li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Egg Flower Soup</h3>
+					<p class="intro">Cup: $2.25 </p>	
+                    <p>Medium: $4.50 </p>  
+                    <p>Large: $6.25</p>
+				</div><!--END ITEM-INFO--> 	
+			    	
+			</li>							
+			<li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Hot & Sour Soup <i class="icon-fire"></i></h3>
+					<p class="intro">Cup: $2.25 </p>	
+                    <p>Medium: $4.50 </p>  
+                    <p>Large: $6.50</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>	
+            <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Won Ton Soup </h3>
+                    with Chicken, Pork, or Beef
+					<p class="intro">Cup: $2.25 </p>	
+                    <p>Medium: $4.50 </p>  
+                    <p>Large: $6.50</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>		
+                       <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Tofu Vegetable Soup </h3>
+					<p class="intro">Cup: $2.25 </p>	
+                    <p>Medium: $4.50 </p>  
+                    <p>Large: $6.25</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>	
+                       <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Chicken or Pork Noodle Soup</h3>
+                    <p>Large: $6.50</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>		
+                                   <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Seafood Noodle Soup</h3>
+                    <p>Large: $8.50</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>						
+			    <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">House Won Ton Soup</h3>
+                    <p>Large: $7.95</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>						
+	    			    <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Sizzling Rice Soup</h3>
+                    <p>Large: $7.95</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>						
+            			    <li class="item soups">
+                <div class="item-info">
+					<h3 class="title">Seafood Delight Soup</h3>
+                    <p>Large: $8.50</p>
+				</div><!--END ITEM-INFO--> 	
+			</li>						
+
+			<li class="item appetizers">
+                
+                <div class="item-info">
+					<h3 class="title">French Fries</h3>
+					<p>$2.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+				<li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Pork Bun (3)</h3>
+					<p>$2.99</p>		
+				</div><!--END ITEM-INFO-->
+			</li>				
+            <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Fried Quail (2)</h3>
+					<p>$5.99</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+            <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Popcorn Chicken <i class="icon-fire"></i></h3>
+					<p>$3.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Egg Roll (3)</h3>
+					<p>$4.25</p>		
+				</div><!--END ITEM-INFO-->
+			</li>		
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Veggie Egg Roll (3)</h3>
+					<p>$3.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>		
+        <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Cream Cheese Won Ton (6)</h3>
+					<p>$4.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	 
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Fried Won Ton</h3>
+					<p>$3.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	 
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Pot Stickers (6)</h3>
+					<p>$4.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	   
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Chicken in Foil (8)</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Fried Assorted Vegetables</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>				
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Fried Asparagus/Green Beans</h3>
+					<p>$6.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>					
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Fried Prawns (8)</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Fried Squid</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Chicken Salad</h3>
+					<p>$6.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+             <li class="item appetizers">
+                <div class="item-info">
+					<h3 class="title">Combination Plate</h3>
+                    (2 Egg Rolls, 4 Cream Cheese Won Ton, 4 Fried Prawns, 4 Chicken in Foil) <br />
+					<p>$9.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>	
+            						
+			<li class="item mushu">
+                <div class="item-info">
+					<h3 class="title">Mu Shu Chicken, Pork, or Beef</h3>
+                    (with 4 pancakes, $.40 each additional)
+					<p>$7.95</p>	
+				</div><!--END ITEM-INFO-->
+			</li>			
+							<li class="item mushu">
+                <div class="item-info">
+					<h3 class="title">Mu Shu Vegetables</h3>
+                    (with 4 pancakes, $.40 each additional)
+					<p>$7.25</p>	
+				</div><!--END ITEM-INFO-->
+			</li>			
+            			<li class="item mushu">
+                <div class="item-info">
+					<h3 class="title">Mu Shu Shrimp</h3>
+                    (with 4 pancakes, $.40 each additional)
+					<p>$8.50</p>	
+				</div><!--END ITEM-INFO-->
+			</li>			
+
+			<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title">Pineapple Prawns</h3>
+					<p>$10.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+						<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title">Happy Family</h3>
+					<p>$9.25</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+						<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title"> Prawns & Beef with Lobster Sauce</h3>
+					<p>$9.25</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+					<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title">Beef with Black Pepper <i class="icon-fire"></i> </h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            			<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title">Seafood Fried Rice</h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            			<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title">House Special Chow Mein</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            			<li class="item chefs">
+                <div class="item-info">
+					<h3 class="title">Singapore Style Rice Noodles <i class="icon-fire"></i></h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+
+            			<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Mixed Vegetables</h3>
+					<p>$6.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+					<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Fried Tofu with Vegetables</h3>
+					<p>$6.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Sweet & Sour Tofu</h3>
+					<p>$6.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Snowpeas with Waterchestnuts</h3>
+					<p>$6.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Green Beans with Black Bean Sauce</h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Eggplant with Hot & Sour Sauce <i class="icon-fire"></i></h3>
+					<p>$7.25</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Sautéed Bean Sprouts</h3>
+					<p>$5.25</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Szechuan Eggplant <i class="icon-fire"></i></h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Salted Tofu</h3>
+					<p>$6.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              	<li class="item vegetables">
+                <div class="item-info">
+					<h3 class="title">Asparagus Oyster Sauce</h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+
+              	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Sweet & Sour Prawns</h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                          	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Prawns with Broccoli/Vegetables</h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                          	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Cashew/Almond Prawns</h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                          	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Prawns with Black Bean Sauce <i class="icon-fire"></i></h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Kung Pao Prawns <i class="icon-fire"></i></h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Hunan Prawns <i class="icon-fire"></i></h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Prawns with Asparagus/Green Beans</h3>
+					<p>$9.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Squid with Black Bean Sauce<i class="icon-fire"></i></h3>
+					<p>$9.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                        	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Salted Squid<i class="icon-fire"></i></h3>
+					<p>$10.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                        	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Sweet and Sour Fish</h3>
+					<p>$9.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                        	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Sizzling Platter Seafood</h3>
+					<p>$9.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                        	<li class="item seafood">
+                <div class="item-info">
+					<h3 class="title">Szechuan Prawns<i class="icon-fire"></i></h3>
+					<p>$9.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">General Chao Chicken <i class="icon-fire"></i></h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Mongolian Chicken <i class="icon-fire"></i></h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                  <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Chicken Broccoli/Vegetables</h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                              <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Cashew/Almond Chicken</h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                              <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Lemon Chicken</h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                              <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Kung Pao Chicken <i class="icon-fire"></i></h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+
+                  <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Garlic Chicken <i class="icon-fire"></i></h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                  <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Orange Chicken <i class="icon-fire"></i></h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                  <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Sweet and Sour Chicken/Pork </h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                  <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Szechuan Chicken <i class="icon-fire"></i></h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                  <li class="item chickepork">
+                <div class="item-info">
+					<h3 class="title">Hunan Chicken <i class="icon-fire"></i></h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                  <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Mushroom Chicken </h3>
+					<p>$7.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Chicken with Asparagus/Green Beans </h3>
+					<p>$8.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                            <li class="item chickenpork">
+                <div class="item-info">
+					<h3 class="title">Sizzling Platter Chicken</h3>
+					<p>$8.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+
+                            <li class="item beef">
+                <div class="item-info">
+					<h3 class="title">Beef Broccoli/Vegetables </h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+                <li class="item beef">
+                <div class="item-info">
+					<h3 class="title">Kung Pao Beef <i class="icon-fire"></i></h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item beef">
+                <div class="item-info">
+					<h3 class="title">Hunan Beef <i class="icon-fire"></i></h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item beef">
+                <div class="item-info">
+					<h3 class="title">Green Onion & Ginger Beef</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item beef">
+                <div class="item-info">
+					<h3 class="title">Beef with Mushroom</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item beef">
+                <div class="item-info">
+					<h3 class="title">Mongolian Beef <i class="icon-fire"></i></h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item beef">
+                <div class="item-info">
+					<h3 class="title"> Beef with Asparagus/Green Beans</h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item beef">
+                <div class="item-info">
+					<h3 class="title"> Sizzling Platter Beef</h3>
+					<p>$9.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title"> Fried Rice with Chicken, Pork, or Beef</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Vegetable Fried Rice</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Shrimp Fried Rice</h3>
+					<p>$6.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">House Special Fried Rice</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Chow Mein with Chicken, Pork, or Beef</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Vegetable Chow Mein</h3>
+					<p>$5.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Shrimp Chow Mein</h3>
+					<p>$6.75</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Beef Chow Fun</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Hong Kong Style Noodle with Chicken, Pork or Beef</h3>
+					<p>$7.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Combination Hong Kong Noodle</h3>
+					<p>$8.95</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Steamed Rice</h3>
+					<p>$1.00</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RiceNoodles">
+                <div class="item-info">
+					<h3 class="title">Brown Rice</h3>
+					<p>$1.50</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Sweet & Sour Chicken/Pork</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Almond/Cashew Chicken</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Chicken/Beef with Vegetables</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Green Onion & Ginger Beef</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Broccoli Chicken/Beef</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Mixed Vegetables</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Mushroom Chicken/Beef</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Kung Pao Chicken/Beef <i class="icon-fire"></i></h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Mixed Vegetables</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Green Bean Chicken/Beef</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.79</p>		
+                    <p>Dinner: $7.79</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Asparagus Chicken/Beef</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.79</p>		
+                    <p>Dinner: $7.79</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Garlic Chicken <i class="icon-fire"></i></h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Lemon Chicken</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Orange Chicken <i class="icon-fire"></i></h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $6.29</p>		
+                    <p>Dinner: $7.29</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item RicePlates">
+                <div class="item-info">
+					<h3 class="title">Mongolian Beef</h3>
+                    (additional $1 for Shrimp substitution)
+					<p>Lunch: $7.59</p>		
+                    <p>Dinner: $8.59</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title" style="color:#da4644">Served Until 3pm</h3>
+                   Served with steamed rice (except for T1-T3) and egg roll.
+					<p>Choice of meat: Chicken, Beef, Pork or Shrimp (additional $1)</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T1. Pad Thai (with chicken)</h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T2. Pad See Ew</h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T3. Pad Kee Mao <i class="icon-fire"></i></h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T4. Volcano Chicken<i class="icon-fire"></i></h3>
+					<p>$7.59</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T5. Pad Eggplant <i class="icon-fire"></i></h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T6. Pad Graw Prow <i class="icon-fire"></i></h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T7. Pad Prik King <i class="icon-fire"></i></h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>  <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T8. Pad King Sod</h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T9. Pad Nam Prik Pow</h3>
+					<p>$7.29</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiLunch">
+                <div class="item-info">
+					<h3 class="title">T10. Thai Curry <i class="icon-fire"></i></h3>
+                    (Choice of yellow, red, or green).
+					<p>$7.59</p>		
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title" style="color:#da4644">Lunch $6.79 (until 3pm)</h3>
+					<h3 class="title" style="color:#da4644">Dinner $8.29 </h3>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L1. Sweet & Sour Chicken</h3>
+                    Pork Fried Rice & Egg Roll <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L2. Beef Broccoli</h3>
+                    Pork Fried Rice & Egg Roll <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L3. Lemon Chicken</h3>
+                    Pork Fried Rice & Egg Roll <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L4. Chicken with Vegetables</h3>
+                    Pork Fried Rice & Egg Roll <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L5. Almond Chicken</h3>
+                    Steamed Rice & Fried Prawns <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L6. Orange Chicken <i class="icon-fire"></i></h3>
+                    Steamed Rice & Fried Prawns <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L7. Garlic Chicken <i class="icon-fire"></i></h3>
+                    Steamed Rice & Fried Prawns <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item Comboplates">
+                <div class="item-info">
+					<h3 class="title">L8. Kung Pao Chicken <i class="icon-fire"></i></h3>
+                    Steamed Rice & Fried Prawns <br />
+                    Chicken Chow Mein
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item FamilyDinner">
+                <div class="item-info">
+					<h3 class="title" style="color:#da4644">Minimum for 2</h3>
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item FamilyDinner">
+                <div class="item-info">
+					<h3 class="title">A) $9.99 Per Person</h3>
+                    Soup of the Day<br />
+                    Fried Prawns<br />
+                    Fried Won Ton<br />
+                    Pork Fried Rice<br />
+                    Chicken Chow Mein<br />
+                    Sweet & Sour Chicken<br />
+                    *For 3 add:* <br />
+                    Beef Broccoli<br />
+                    *For 4 add:* <br />
+                    Prawns with Vegetables<br />
+                   *For 5 add:* <br />
+                    Chicken with Green Beans
+
+				</div><!--END ITEM-INFO-->
+			</li>
+                           <li class="item FamilyDinner">
+                <div class="item-info">
+					<h3 class="title">B) $11.99 Per Person</h3>
+                    Soup of the Day<br />
+                    Potstickers<br />
+                    Egg Rolls<br />
+                    Garlic Chicken <i class="icon-fire"></i><br />
+                    Hunan Beef<i class="icon-fire"></i><br />
+                    Pork Fried Rice<br />
+                    OR Chow Mein<br />
+                    *For 3 add:* <br />
+                    Kung Pao Prawns<i class="icon-fire"></i><br />
+                    *For 4 add:* <br />
+                   Mu Shu Pork<br />
+                   *For 5 add:* <br />
+                   Squid w/Black Bean Sauce<i class="icon-fire"></i><br />
+
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item FamilyDinner">
+                <div class="item-info">
+					<h3 class="title">C) $12.99 Per Person</h3>
+                    Soup of the Day<br />
+                    Chicken in Foil<br />
+                    Cream Cheese Won Ton<br />
+                    Happy Family<br />
+                    Mongolian Beef <i class="icon-fire"></i><br />
+                    Pork Fried Rice<br />
+                    OR Chicken Chow Mein<br />
+                    *For 3 add:* <br />
+                    Seafood Platter<br />
+                    *For 4 add:* <br />
+                   Pineapple Prawns<br />
+                   *For 5 add:* <br />
+                   Sweet & Sour Fish
+				</div><!--END ITEM-INFO-->
+			</li>
+
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">1. Tom Yum Goong <i class="icon-fire"></i></h3>
+                    Spicy and sour soup with prawns, mushrooms, lemongrass, Kaffir lime leaves, galangal, chili, and lime juice<br />
+                    <p>Bowl: $6.95<br />
+                    Large: $10.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">2. Tom Yum Chicken <i class="icon-fire"></i></h3>
+                    Spicy and sour soup with chicken, mushrooms, lemongrass, Kaffir lime leaves, galangal, chili, and lime juice<br />
+                    <p>Bowl: $5.95<br />
+                    Large: $8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">3. Tom Kha Gai <i class="icon-fire"></i></h3>
+                    Coconut milk soup with chicken, mushrooms, lemongrass, Kaffir lime leaves, galangal, chili, and lime juice<br />
+                    <p>Bowl: $5.95<br />
+                    Large: $8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">4. Po-Tak <i class="icon-fire"></i></h3>
+                    Spicy and sour soup with seafood, mushrooms, lemongrass, Kaffir lime leaves, lime juice, galangal, and chili<br />
+                    <p>$12.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">5. Pho (beef, chicken, pork or meat ball)</h3>
+                    Rice noodle soup with bean sprouts, green onions, and cilantro<br />
+                    <p>Bowl: $6.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">6. Papaya Salad <i class="icon-fire"></i></h3>
+                    Green papaya with chili, tomatoes, carrots, peanuts, fish sauce, & lime juice on a bed of lettuce<br />
+                    <p>$6.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">7. Cucumber Salad</h3>
+                    Cucumber, red onion and carrots in a sweet and tangy vinaigrette <br />
+                    <p>$4.50</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">8. Thai Salad</h3>
+                    Tomatoes, cucumber, and stir fried chicken with a creamy dressing on a bed of lettuce<br />
+                    <p>$6.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">9. Pad See Ew</h3>
+                    Wide, flat savory rice noodles with egg, broccoli, and choice of meat<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">10. Pad Thai</h3>
+                    Thin rice noodles with chicken, shrimp, egg, tofu, green onion, peanuts and bean sprouts<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">11. Pad Kee Mao <i class="icon-fire"></i></h3>
+                    Spicy, wide flat  rice noodles with onions, bell pepper, basil, and choice of meat cooked in a garlic and chili seasoning<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">12. Lad Nah</h3>
+                    Wide, flat  rice noodles with broccoli and choice of meat in gravy sauce<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">13. Mango Fried Rice <i class="icon-fire"></i></h3>
+                   Stir fried rice with shrimp, chicken, mango, egg, onions, raisins, cashew nuts and curry powder<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">14. Pineapple Fried Rice <i class="icon-fire"></i></h3>
+                   Stir fried rice with shrimp, chicken, pineapple, egg, onions, raisins, cashew nuts and curry powder<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">15. Basil Fried Rice <i class="icon-fire"></i></h3>
+                   Spicy stir fried rice with onion, bell pepper, basil, and choice of meat in a garlic and chili seasoning<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">16. Thai Fried Rice </h3>
+                   Stir fried rice with egg, onions, tomato, and choice of meat<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">17. Red Curry <i class="icon-fire"></i></h3>
+                    Curry, coconut milk, bamboo shoots, bell pepper, and basil leave with choice of meat<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">18. Green Curry <i class="icon-fire"></i></h3>
+                    Curry, coconut milk, eggplant, bamboo shoots, bell pepper, and basil leave with choice of meat<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">19. Yellow Curry <i class="icon-fire"></i></h3>
+                    Curry, coconut milk, potato, carrots, onion, and choice of meat<br />
+                    <p>$8.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">20. Pineapple Curry <i class="icon-fire"></i></h3>
+                    Red curry with shrimp, pineapple, bamboo shoots, bell pepper, and basil<br />
+                    <p>$9.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">21. Panang Curry<i class="icon-fire"></i></h3>
+                    Curry, coconut milk, green beans, and choice of meat<br />
+                    <p>$9.50</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">22. Volcano Chicken<i class="icon-fire"></i></h3>
+                    Fried chicken filet on a bed of steamed vegetables, topped with a sweet and spicy sauce<br />
+                    <p>$9.50</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">23. Volcano Prawns<i class="icon-fire"></i></h3>
+                    <p>$10.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">24. Volcano Fish<i class="icon-fire"></i></h3>
+                    <p>$10.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+            <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">25. Volcano Calamari<i class="icon-fire"></i></h3>
+                    <p>$11.50</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">26. Crispy Tofu<i class="icon-fire"></i></h3>
+                    Fried tofu served in a sweet and spicy sauce, topped with basil<br />
+                    <p>$6.25</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">27. Pia Muck Pad Phet<i class="icon-fire"></i></h3>
+                    Calamari stir fried with chili sauce, onion, bell pepper, and basil<br />
+                    <p>$10.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+               <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">28. Pad Eggplant<i class="icon-fire"></i></h3>
+                    Stir fried eggplant, chili, basil, bell peppers, and choice of meat in savory sauce<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">29. Pad Gra Prow<i class="icon-fire"></i></h3>
+                    Choice of meat stir fried with onions, basil, and bell pepper in a chili and garlic sauce<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">30. Pad Prik King<i class="icon-fire"></i></h3>
+                    Green beans with onions, carrots and choice of meat in savory, spicy sauce<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">31. Pad King Sod</h3>
+                    Choice of meat stir fried with onion, mushroom, bell pepper and fresh ginger<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">32. Pad Nam Prik Pow<i class="icon-fire"></i></h3>
+                  Choice of meat with carrot, mushroom, onion, and bell pepper in a sweet and mildly spicy sauce<br />
+                    <p>$7.95</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+             <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">33. Sticky Rice with Mango</h3>
+                    Sweet sticky rice topped w/coconut milk glaze & side of mango<br />
+                    <p>$4.25</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+              <li class="item ThaiDishes">
+                <div class="item-info">
+					<h3 class="title">34. Black Sticky Rice</h3>
+                    Sweet sticky black rice topped w/coconut milk glaze<br />
+                    <p>$3.75</p>
+				</div><!--END ITEM-INFO-->
+			</li>
+		</ul><!--END UL-->
+			
+	</div><!--END PORTFOLIO-GRID-->	
+
+
+	</div><!--END PORTFOLIO-->				
+
+</div><!--END DYNAMIC-CONTENT-WRAPPER-->
+
+<!-- END DYNAMIC CONTENT WRAPPER -->
+
+
+
+<!-- START STATIC CONTENT WRAPPER -->
+
+<div class="static-content-wrapper">		
+    	<div id="contact">	
+
+		<div class="section-title">		
+			<h1>Contact</h1>	
+		
+		</div><!--END SECTION TITLE-->
+			
+		
+		<div class="divider-border"></div>
+		
+		
+		<div class="one">
+			<div id="bra-map" class="google-map"></div>		
+		</div><!--END ONE-->
+		
+		
+		<div class="divider-border"></div>
+		
+		
+		<div class="one-half">
+		
+			<p><strong>Contact info</strong><br />
+			1801 Countryside Drive <br />
+            Turlock, CA 95380<br />
+			Telephone: (209) 656-9189<br />
+			</p>
+		</div><!--END ONE-HALF-->	
+		<div class="one-half last">
+            	<p><strong>Business Hours</strong><br />
+			Mon - Fri: 11:00am - 9:00pm <br />
+            Sat - Sun: 12:00pm - 9:00pm<br />
+			Dine In & Carry Out<br />
+</p>
+		</div>	
+			
+
+	</div><!--END CONTACT-->	
+
+	
+</div><!--END STATIC-CONTENT-WRAPPER-->
+
+<!-- END STATIC CONTENT WRAPPER --> 
+
+</div><!--END CONTENT-->	
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+
+
+<!-- START FOOTER -->
+
+<div id="footer">
+
+	
+		
+	<div id="footer-bottom">
+				
+		<div class="one-half">
+			<p>Copyright &copy;2013 Chong's Cuisine. All rights reserved.</p>
+		</div><!--END ONE-HALF-->	
+				
+		<div class="one-half text-align-right last">			
+			<p>Designed By <a target="_blank" href="http://www.ravenartmedia.com">Raven Art Media</a></p>
+		</div><!--END ONE-HALF TRIGGER-FOOTER LAST-->
+		
+	</div><!--END FOOTER-BOTTOM-->			
+
+</div><!--END FOOTER-->
+
+<!-- END FOOTER -->
+
+</div><!--END WRAPPER-->
+
+</body>
+</html>
